@@ -40,11 +40,16 @@ body {
 button a {
     text-decoration: none;
     color: rgb(23, 158, 236);
+    transition: transform 0.8s;
     
 }
 
 .cards {
     display: flex;
-    transition: transform 0.5s;
+    transition: transform 0.8s;
     width: max-content;
+}
+
+.card-slider {
+    
 }
