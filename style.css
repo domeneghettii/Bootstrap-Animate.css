@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text {
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.card-d {
+    padding: 20px;
+}
+
+.title {
+    background-color: rgb(219, 200, 137);
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(23, 158, 236);
+}
+
+.cards {
+    display: flex;
+    transition: transform 0.5s;
+    width: max-content;
+}
